@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KatalogFilm</string>
+    <string name="title">Judul</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="rating">Rating</string>
+    <string name="synopsis">Sinopsis</string>
+    <string name="settings">Pengaturan</string>
+    <string name="notif">Pemberitahuan</string>
+</resources>

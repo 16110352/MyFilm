@@ -18,26 +18,26 @@
         android:layout_weight="0.08"
         />
     <TextView
-        android:text="Judul"
+        android:text="@string/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txt_title"
         android:layout_weight="0.08" />
     <TextView
-        android:text="Tanggal Rilis"
+        android:text="@string/release_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txt_release"
         android:layout_weight="0.08" />
     <TextView
-        android:text="Rating"
+        android:text="@string/rating"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txt_vote"
         android:layout_weight="0.08" />
 
     <TextView
-        android:text="Sinopsis"
+        android:text="@string/synopsis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txt_sinopsis"

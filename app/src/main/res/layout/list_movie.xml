@@ -36,7 +36,7 @@
         android:paddingBottom="20dp"/>
 
     <Button
-        android:text="Lihat Detail"
+        android:text="Details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_lanjut"

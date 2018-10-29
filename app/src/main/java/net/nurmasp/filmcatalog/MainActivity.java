@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements  AdapterView.OnIt
                 startActivity(intent);
 
                 break;
-            case R.id.action_keluar:
+            case R.id.action_notif:
 
                 break;
         }

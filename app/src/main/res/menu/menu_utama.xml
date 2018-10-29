@@ -4,12 +4,12 @@
 
     <item
         android:id="@+id/action_pengaturan"
-        android:title="Settings"
+        android:title="@string/settings"
         app:showAsAction="never"
         />
     <item
-        android:id="@+id/action_keluar"
-        android:title="Exit"
+        android:id="@+id/action_notif"
+        android:title="@string/notif"
         app:showAsAction="never"
         />
 </menu>

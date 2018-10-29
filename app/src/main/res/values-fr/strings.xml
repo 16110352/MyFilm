@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Catalogue de film</string>
+    <string name="title">Titre</string>
+    <string name="release_date">date de sortie</string>
+    <string name="rating">évaluation</string>
+    <string name="synopsis">synopsis</string>
+    <string name="settings">réglage</string>
+    <string name="notif">notification</string>
+</resources>
