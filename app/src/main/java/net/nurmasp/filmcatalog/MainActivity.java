@@ -38,14 +38,14 @@ public class MainActivity extends AppCompatActivity implements  AdapterView.OnIt
         listView = (ListView) findViewById(R.id.list);
         listView.setOnItemClickListener(this);
 
-        new CheckConnectionStatus().execute("https://api.themoviedb.org/3/movie/now_playing?api_key=60764a4c9db47fcb98a7d9a338966667");
+        new CheckConnectionStatus().execute("https://api.themoviedb.org/3/movie/now_playing?api_key=84d1d831be8a2aaa101256304034e168");
 
     }
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Intent intent = new Intent(MainActivity.this,DetailMovie.class);
-        intent.putExtra("MOVIE_DETAILS", (MovieDetails)parent.getItemAtPosition(position));
+        intent.putExtra("MOVIE_DETAILS", (MovieDetails )parent.getItemAtPosition(position));
         startActivity(intent);
     }
 
